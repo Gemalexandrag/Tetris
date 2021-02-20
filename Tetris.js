@@ -81,31 +81,8 @@ let j = [
 ]
 ];
 
-let k = [
-[
-  [0,0,0],
-  [0,0,0],
-  [0,0,0]
-],
 
-[
-  [0,0,0],
-  [0,0,0],
-  [0,0,0]
-],
 
-[
-  [0,0,0],
-  [0,0,0],
-  [0,0,0]
-],
-
-[
-  [0,0,0],
-  [0,0,0],
-  [0,0,0]
-]
-];
 $(document).ready(function(){
   console.log("in function");
   for(let i = 0; i < 20; i++){
@@ -115,3 +92,9 @@ $(document).ready(function(){
     }
   }
 });
+const getShape(a,b,c)=>{
+Math.floor(Math.random() * 3);
+
+}
+    const show(getshape(l,i,j))=> show(id){
+       get(id).style.visibility = null;     }
